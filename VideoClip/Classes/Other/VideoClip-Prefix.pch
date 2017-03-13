@@ -1,0 +1,22 @@
+//
+//  VideoClip-Prefix.pch
+//  VideoClip
+//
+//  Created by HeJeffery on 2017/3/13.
+//  Copyright © 2017年 HeJeffery. All rights reserved.
+//
+
+#ifndef VideoClip_Prefix_pch
+#define VideoClip_Prefix_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 第三方类库的头文件
+#import "Masonry.h"
+
+#endif
+
+#endif /* VideoClip_Prefix_pch */
