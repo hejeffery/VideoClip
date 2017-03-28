@@ -27,6 +27,7 @@
 		47263E101E765D71007ADCF9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47263E0F1E765D71007ADCF9 /* CoreMedia.framework */; };
 		47263E121E765D7E007ADCF9 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47263E111E765D7E007ADCF9 /* VideoToolbox.framework */; };
 		47263E1B1E766234007ADCF9 /* VCHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47263E1A1E766234007ADCF9 /* VCHomeController.m */; };
+		47EB85A21E8A68DD00818DF3 /* FFmpegTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB85A11E8A68DD00818DF3 /* FFmpegTools.m */; };
 		D29610715F941F11C983452C /* libPods-VideoClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEE025A3CE6BF39165D3143 /* libPods-VideoClip.a */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +162,8 @@
 		47263E131E765FB6007ADCF9 /* VideoClip-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VideoClip-Prefix.pch"; sourceTree = "<group>"; };
 		47263E191E766234007ADCF9 /* VCHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHomeController.h; sourceTree = "<group>"; };
 		47263E1A1E766234007ADCF9 /* VCHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHomeController.m; sourceTree = "<group>"; };
+		47EB85A01E8A68DD00818DF3 /* FFmpegTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpegTools.h; sourceTree = "<group>"; };
+		47EB85A11E8A68DD00818DF3 /* FFmpegTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFmpegTools.m; sourceTree = "<group>"; };
 		6AEE025A3CE6BF39165D3143 /* libPods-VideoClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A575D678135604307DAD5319 /* Pods-VideoClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoClip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoClip/Pods-VideoClip.debug.xcconfig"; sourceTree = "<group>"; };
 		DBDAD87A1DF292CD595BA7C6 /* Pods-VideoClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoClip.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoClip/Pods-VideoClip.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				47263D801E765CD4007ADCF9 /* 3rdParty */,
+				47EB859E1E8A68C500818DF3 /* Common */,
 				47263E141E7661FB007ADCF9 /* Module */,
 				47263D771E764A3C007ADCF9 /* Other */,
 			);
@@ -516,6 +520,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		47EB859E1E8A68C500818DF3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				47EB859F1E8A68C500818DF3 /* Tools */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		47EB859F1E8A68C500818DF3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				47EB85A01E8A68DD00818DF3 /* FFmpegTools.h */,
+				47EB85A11E8A68DD00818DF3 /* FFmpegTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -640,6 +661,7 @@
 			files = (
 				47263D7C1E764A3C007ADCF9 /* AppDelegate.m in Sources */,
 				47263D7E1E764A3C007ADCF9 /* main.m in Sources */,
+				47EB85A21E8A68DD00818DF3 /* FFmpegTools.m in Sources */,
 				47263E1B1E766234007ADCF9 /* VCHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
