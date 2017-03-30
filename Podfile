@@ -4,5 +4,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'VideoClip' do
 
   pod 'Masonry'
+  
+  pod 'MBProgressHUD'
+  
+  pod 'CWStatusBarNotification'
 
 end
